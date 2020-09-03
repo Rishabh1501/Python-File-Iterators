@@ -1,6 +1,6 @@
-#import itertools
+import itertools
 from collections import defaultdict
-#from Combined_Data import combined_iterable
+from Combined_Data import combined_iterable
 
 
 def car_makes(iterable):
@@ -28,5 +28,6 @@ def car_makes(iterable):
             print('Female:',item,end = "  ")
         else:
             break
-    
-#car_makes(combined_iterable())
+
+if __name__ == '__main__':
+    car_makes(combined_iterable())

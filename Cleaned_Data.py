@@ -35,8 +35,8 @@ def cleaner(lst):
                 continue
     return lst
 
-
-#for item in itertools.islice(itertools.chain(personal_info,employment),5):
-#    print(item)
+if __name__ == '__main__' :
+    for item in itertools.islice(itertools.chain(personal_info,employment),5):
+        print(item)
 
 

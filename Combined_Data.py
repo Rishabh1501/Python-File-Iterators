@@ -21,6 +21,6 @@ def combined_iterable():
                         +next(update_status)[1:]))
         except StopIteration:
             break
-
-#for item in combined_iterable():
-#    print(item)
+if __name__ == '__main__':
+    for item in combined_iterable():
+        print(item)
